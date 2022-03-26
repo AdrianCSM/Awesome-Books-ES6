@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Awesome Books</title>
+</head>
+
+<body>
+    <!-- start header -->
+    <header class="header-container">
+        <nav class="navbar">
+            <img src="images/logo.png" alt="logo" class="logo">
+            <div class="nav-list">
+                <div id="navbtn-home" class="nav-link"><a href="#">Home</a></div>
+                <div id="navbtn-list" class="nav-link"><a href="#">List</a></div>
+                <div id="navbtn-add" class="nav-link"><a href="#">Add new</a></div>
+                <div id="navbtn-contact" class="nav-link"><a href="#">Contact</a></div>
+            </div>
+        </nav>
+    </header>
+    <!-- end header -->
+    <!-- start main -->
+    <section class="main-section">
+        <p id="date" class="date"></p>
+        <!-- start home -->
+        <div class="home-container">
+            <h1 class="desc-title"> Awesome Books </h1>
+            <h2> By Maen and Adrian </h2>
+            <div class="desc">
+                <p>
+                    This is our take over the first project from 2nd module.
+                    We had to do a webpage that will store books locally.
+                    We implemented the add and remove function so you can always remove old books and add new ones.
+                    Awesome Books is an open, editable library catalog, building towards a web page for every book ever
+                    published.
+                    Just like Wikipedia, you can contribute new information or corrections to the catalog. You can
+                    browse by subjects, authors or lists members have created. If you love books, why not help build a
+                    library?
+                </p>
+            </div>
+        </div>
+        <!-- end home -->
+        <!-- start book list -->
+        <div class="list-container">
+            <h1 class="title">Awesome Books</h1>
+            <div class="book-list">
+            </div>
+            <hr class="hr-main">
+        </div>
+        <!-- end book list -->
+        <!-- start add book -->
+        <div class="add-container">
+            <form class="book-form">
+                <p class="add-book-title"> Add a new book </p>
+                <label for="title-input"></label>
+                <input type="text" id="title-input" placeholder="Title" class="book-title">
+                <label for="author-input"></label>
+                <input type="text" id="author-input" placeholder="Author" class="book-author">
+                <input type="submit" value="Add" id="add-btn">
+            </form>
+        </div>
+        <!-- end add book -->
+        <!-- start contact -->
+        <div class="contact-container">
+            <h1> Contact information </h1>
+            <h2> Do you have any questions or just want to say "Hello"?<br> You can reach to us!</h2>
+            <ul class="contact-list">
+                <li>Our e-mail : awesomebooks@company.com</li>
+                <li>Our phone number : +1 800 800 BOOKS</li>
+                <li>Our address: Bookstreet 42, Awesome City, Library Country</li>
+            </ul>
+        </div>
+        <!-- end contact -->
+    </section>
+    <!-- end main -->
+    <!-- start footer -->
+    <footer class="footer-container">
+        <img class="logo" src="images/logo.png" alt="logo">
+        <p class="cc"> 2022 Awesome Books <br> All rights reserved </p>
+    </footer>
+    <!-- end footer -->
+    <script type="module" src="./index.js"></script>
+</body>
+
+</html>
